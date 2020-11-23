@@ -1,0 +1,6 @@
+type: resource
+name: money-pack
+description: A pack of money stored in a reinforced vault.Can be used for special items,units,ammo.
+color: ffffff
+oreDefault:true
+

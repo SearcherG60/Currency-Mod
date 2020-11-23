@@ -1,0 +1,19 @@
+name: Precision Drill
+description: Heavy powered precision drilling for extracting valuable ores from weird mixtures of rock/sand/other ores.
+type: Drill
+size: 3
+tier: 7
+drillTime: 500
+updateEffect:mine
+drillEffect:mine
+consumes: {
+  power: 3
+ }
+requirements: [
+  copper/100
+  lead/100
+  thorium/10
+  titanium/250
+]
+category: production
+research: laser-drill

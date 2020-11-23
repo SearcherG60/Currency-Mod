@@ -1,0 +1,16 @@
+name: Army's Treasure
+description: The most important and armored storage.Use for proper purposes.
+type: Vault
+itemCapacity: 5000
+hasItems: true
+health: 7000
+size: 3
+requirements: [
+  silicon/100
+  titanium/300
+  thorium/300
+  copper/1000
+  money/1
+]
+category: effect
+research: vault

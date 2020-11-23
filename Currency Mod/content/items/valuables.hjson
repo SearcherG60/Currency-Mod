@@ -1,0 +1,6 @@
+type: material
+name: valuables
+description: Valuable ores.You can launch them to make money.
+color: ffffff
+oreDefault:true
+

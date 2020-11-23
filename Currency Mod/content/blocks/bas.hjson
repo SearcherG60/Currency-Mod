@@ -1,0 +1,21 @@
+name: Basic Assault Support
+description: Basic army support from sky!
+type: UnitFactory
+unitType: dagger
+size: 2
+produceTime: 500
+maxSpawn: 100
+consumes: {
+  items: {
+    items: [
+    money-pack/1
+    ]
+  }
+}
+category: units
+research: fortress-factory
+requirements: [
+  lead/100
+  copper/10
+  titanium/10
+]

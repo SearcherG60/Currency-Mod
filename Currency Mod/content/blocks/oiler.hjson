@@ -1,0 +1,29 @@
+type: GenericSmelter
+name: Oil Mixer
+description: Combines some items to create fuel.
+liquidCapacity: 500
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 25
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.7
+  items: {
+    items: [
+      coal/2
+      sand/1
+    ]
+  }
+}
+requirements: [
+  lead/50
+  titanium/5
+  copper/5
+]
+category: crafting
+research: mechanical-pump
+idleSound: respawning
+idleSoundVolume: 0.5
+outputliquid: oil/1

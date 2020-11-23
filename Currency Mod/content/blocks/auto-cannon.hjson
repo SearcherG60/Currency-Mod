@@ -1,0 +1,25 @@
+type: DoubleTurret
+name: Auto-Cannon
+description: Two barrel auto-cannon.Fast and decend damage.Supreme item efficent.
+health: 450
+size: 2
+targetAir:false
+targetGround:true
+reload: 20
+range: 200
+inaccuracy: 1
+rotatespeed: 50
+ammo:{
+	lead:{
+  type: basicBulletType
+  lifetime: 40
+  speed: 4
+  damage: 50
+  ammoMultiplier: 50000
+  }
+}
+requirements: [
+money-pack/50
+]
+category: turret
+research: ripple

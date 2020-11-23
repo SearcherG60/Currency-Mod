@@ -1,0 +1,6 @@
+type: OreBlock
+name: valuable-ore
+itemDrop: valuables
+oreDefault:true
+playerUnmineable: true
+tier: 7
